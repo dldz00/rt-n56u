@@ -101,21 +101,13 @@ tls:
   private_key: ""
 filters:
 - enabled: true
-  url: https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
-  name: AdGuard Simplified Domain Names filter
+  url: https://anti-ad.net/easylist.txt
+  name: anti-ad
   id: 1
 - enabled: true
-  url: https://adaway.org/hosts.txt
-  name: AdAway
+  url: https://cdn.jsdelivr.net/gh/banbendalao/ADgk@latest/ADgk.txt
+  name: ADGK-AD
   id: 2
-- enabled: true
-  url: https://hosts-file.net/ad_servers.txt
-  name: hpHosts - Ad and Tracking servers only
-  id: 3
-- enabled: true
-  url: https://www.malwaredomainlist.com/hostslist/hosts.txt
-  name: MalwareDomainList.com Hosts List
-  id: 4
 user_rules: []
 dhcp:
   enabled: false
